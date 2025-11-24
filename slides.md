@@ -4,40 +4,67 @@ theme: custom
 paginate: true
 ---
 
-<!-- Custom theme -->
+<!-- Custom Theme Styling -->
 <style>
 section {
-  font-family: Arial;
+  font-family: Arial, sans-serif;
 }
-h1 {
+h1, h2, h3 {
   color: #007ACC;
 }
 footer {
   position: absolute;
   bottom: 10px;
   right: 20px;
-  color: #666;
+  color: #888;
+  font-size: 12px;
 }
 </style>
 
-# Product Documentation
-Your Email: **24f1000881@ds.study.iitm.ac.in**
+# Product Documentation  
+### Using Marp for Version-Controlled Docs  
+📧 24f1000881@ds.study.iitm.ac.in
+
+<footer>Slide 1</footer>
 
 ---
 
-<!-- Background image slide -->
-![bg](https://images.unsplash.com/photo-1522071820081-009f0129c71c)
+<!-- Required background image slide -->
+---
+backgroundImage: "https://picsum.photos/1600/900"
+class: "bg-cover"
+---
 
-# Background Image Slide
-This slide fixes the validation error 🚀
+# Visual Overview  
+This slide includes a background image for validation.
+
+<footer>Slide 2</footer>
 
 ---
 
-## Mathematical Equation Example
+## Why Use Marp?
 
-Algorithm Complexity:
+✔ Version control friendly  
+✔ Convert to PDF, PPTX, HTML  
+✔ Developer-focused documentation  
+
+<footer>Slide 3</footer>
+
+---
+
+## Mathematical Example
+
+Algorithm complexity:
+
 $$O(n^2 + n) = O(n^2)$$
 
+<footer>Slide 4</footer>
+
 ---
 
-# Thank You!
+## Custom Theme Integration
+
+You can create a separate theme `.css` and import:
+
+```md
+theme: custom
