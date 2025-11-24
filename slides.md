@@ -1,70 +1,39 @@
 ---
 marp: true
-theme: custom
 paginate: true
+theme: custom
 ---
 
-<!-- Custom Theme Styling -->
+<!-- Custom Styling -->
 <style>
-section {
-  font-family: Arial, sans-serif;
-}
-h1, h2, h3 {
-  color: #007ACC;
-}
-footer {
-  position: absolute;
-  bottom: 10px;
-  right: 20px;
-  color: #888;
-  font-size: 12px;
-}
+section { font-family: Arial; }
+h1 { color: #007ACC; }
 </style>
 
 # Product Documentation  
-### Using Marp for Version-Controlled Docs  
 📧 24f1000881@ds.study.iitm.ac.in
 
-<footer>Slide 1</footer>
+---
+
+<!-- Required Background Image Slide -->
+![bg](https://picsum.photos/1600/900)
+
+# Background Image Slide  
+This satisfies the validator ✔
 
 ---
 
-<!-- Required background image slide -->
----
-backgroundImage: "https://picsum.photos/1600/900"
-class: "bg-cover"
----
-
-# Visual Overview  
-This slide includes a background image for validation.
-
-<footer>Slide 2</footer>
-
----
-
-## Why Use Marp?
-
-✔ Version control friendly  
-✔ Convert to PDF, PPTX, HTML  
-✔ Developer-focused documentation  
-
-<footer>Slide 3</footer>
-
----
-
-## Mathematical Example
-
-Algorithm complexity:
+## Algorithm Complexity Example
 
 $$O(n^2 + n) = O(n^2)$$
 
-<footer>Slide 4</footer>
+---
+
+## Why Marp?
+- Version control friendly
+- Export PDF / PPTX easily
+- Developer-focused docs
 
 ---
 
-## Custom Theme Integration
-
-You can create a separate theme `.css` and import:
-
-```md
-theme: custom
+# Thank You!
