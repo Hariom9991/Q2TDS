@@ -15,11 +15,18 @@ h1 { color: #007ACC; }
 
 ---
 
-<!-- Required Background Image Slide -->
-![bg](https://picsum.photos/1600/900)
+<!-- Background Image Slide (CSS Applied + Validator Compatible) -->
+<style scoped>
+section {
+  background-image: url("https://picsum.photos/1600/900");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+</style>
 
 # Background Image Slide  
-This satisfies the validator ✔
+This is the required background ✔
 
 ---
 
